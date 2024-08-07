@@ -15,25 +15,41 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+  - id: renhotec
+    name: Renhotec
+    url: 'https://www.renhotec.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: renhotecev
+    name: Renhotec EV
+    url: 'https://www.renhotecev.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: renhotecpro
+    name: Renhotec Pro
+    url: 'https://renhotecpro.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: renhotecrf
+    name: Renhotec RF
+    url: 'https://www.renhotecrf.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: renhotec-industrial
+    name: Renhotec RF
+    url: 'https://renhotec-industrial.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: elecpeek
+    name: Elecpeek
+    url: 'https://www.elecpeek.com/'
     method: GET
     expectStatus: 200
