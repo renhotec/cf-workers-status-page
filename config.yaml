@@ -18,17 +18,15 @@ monitors:
   - id: renhotec
     name: Renhotec
     url: 'https://www.renhotec.com/'
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    method: GET
+    expectStatus: 200
+    followRedirect: false
 
   - id: renhotecev
     name: Renhotec EV
     url: 'https://www.renhotecev.com/'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
 
   - id: renhotecpro
     name: Renhotec Pro
@@ -49,7 +47,19 @@ monitors:
     expectStatus: 200
 
   - id: elecpeek
-    name: Elecpeek
+    name: Renhotec Elecpeek
     url: 'https://www.elecpeek.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: metabee
+    name: Metabee
+    url: 'https://www.metabee.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: elecbee
+    name: Elecbee
+    url: 'https://www.elecbee.com/'
     method: GET
     expectStatus: 200
