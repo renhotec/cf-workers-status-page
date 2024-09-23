@@ -34,6 +34,12 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: www.renhotecpro
+    name: Www Renhotec Pro
+    url: 'https://www.renhotecpro.com/'
+    method: GET
+    expectStatus: 200
+
   - id: renhotecrf
     name: Renhotec RF
     url: 'https://www.renhotecrf.com/'
