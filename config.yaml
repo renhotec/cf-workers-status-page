@@ -34,12 +34,6 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: www.renhotecpro
-    name: Www Renhotec Pro
-    url: 'https://www.renhotecpro.com/'
-    method: GET
-    expectStatus: 200
-
   - id: renhotecrf
     name: Renhotec RF
     url: 'https://www.renhotecrf.com/'
@@ -67,5 +61,11 @@ monitors:
   - id: elecbee
     name: Elecbee
     url: 'https://www.elecbee.com/'
+    method: GET
+    expectStatus: 200
+
+  - id: ebee
+    name: Ebee
+    url: 'https://www.ebee.com/'
     method: GET
     expectStatus: 200
